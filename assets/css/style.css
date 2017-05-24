@@ -8,38 +8,70 @@ body {
     background-image: url("../images/congruent_pentagon.png");
 }
 
+h4 {
+    color: red;
+}
+
+.headerText {
+    margin: 0 0 16px 0;
+    padding-bottom: 12px;
+    border-bottom: 2px #ddd solid;
+    font-weight: bold;
+    font-size: 23px;
+    color: #555;
+}
+
+.styledBox {
+    padding: 24px;
+    margin: 24px 0 24px 0;
+    box-sizing: border-box;
+    border: 2px #bbb solid;
+    background-color: white;
+}
+
 .connectThumbnail {
     width: 48px;
     height: 48px;
     border-radius: 4px;
 }
 
-#test {
-    width: 190px;
+.connectThumbnail:hover {
+    opacity: 0.7;
 }
 
-#contentHeader, #connectHeader {
-    margin: 0 0 16px 0;
-    padding-bottom: 12px;
-    border-bottom: 2px #ddd solid;
-    font-weight: bold;
-    font-size: 23px;
+.contactText {
+    font-size: 18px;
+    color: #777;
 }
 
-#contentBox {
-    padding: 24px;
+.project {
+    display: inline-block;
+    width: 100%;
+    margin: 15px 0 15px 0;
 }
 
-#connectBox {
-    padding: 24px;
-    box-sizing: border-box;
-    border: 2px #555 solid;
-    background-color: white;
+.banner {
+    display: flex;
+    position: absolute;
+    top: 65%;
+    background: #B1F6CB;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    border-top: 2px #555 solid;
+    border-bottom: 2px #555 solid;
 }
 
-
-@media (min-width: 1200px) {
-    .connect-thumbnail {
-        width: 64px;
-    }
+#contentText {
+    line-height: 175%;
+    font-size: 16px;
+    text-indent: 48px;
+    color: #555;
 }
+
+.contact {
+    width: 100%;
+}
+

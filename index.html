@@ -13,49 +13,58 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" style="border-radius: 0; border: 0; border-bottom: 2px #bbb solid;">
         <div class="container">
             <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Alec Schleicher</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation">
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Alec Schleicher</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navigation">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"> <a href="#">About</a> </li>
-                    <li> <a href="#">Portfolio</a> </li>
-                    <li> <a href="#">Contact</a> </li>
+                    <li class="active"> <a href="index.html">About</a> </li>
+                    <li> <a href="portfolio.html">Portfolio</a> </li>
+                    <li> <a href="contact.html">Contact</a> </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <div class="container" style="background-color: lightgrey">
+    <div class="container">
         <div class="row">
             <!--Content Block-->
-            <div class="col-12-sm col-md-8" id="contentBox" style="background-color: red">
-                <h2 id="contentHeader">About Me</h2>
-                <img src="https://www.placehold.it/200x200" class="float-left" style="background-color: yellow">
-                <p class="float-right" style="background-color: yellow">Bacon ipsum dolor amet boudin sirloin prosciutto pig. Spare ribs biltong jerky cow, pancetta bacon jowl brisket capicola pork belly strip steak ball tip tri-tip. Short loin burgdoggen leberkas, beef shank frankfurter porchetta prosciutto biltong. Doner shank burgdoggen bresaola strip steak salami meatloaf cow venison ground round hamburger tri-tip ribeye swine. Spare ribs sirloin tongue picanha filet mignon ball tip ham landjaeger salami leberkas turducken. Cow pastrami swine ground round boudin pork belly, ham meatball. Brisket shank doner pig.
-
-Picanha cupim pig leberkas ball tip hamburger. Cow kevin pig ground round. Ball tip short loin burgdoggen tongue, chuck beef ribs tail bacon short ribs venison alcatra porchetta. Rump biltong pastrami prosciutto bacon. Pig hamburger andouille capicola, pork meatball swine burgdoggen t-bone pancetta short loin ground round.</p> 
+            <div class="col-12-sm col-md-8 styledBox">
+                <h2 class="headerText">About Me</h2>
+                <div>
+                    <img src="https://www.placehold.it/200x200" style="float: left; margin: 0 24px 20px 0;">
+                    <p id="contentText">
+                        Bacon ipsum dolor amet boudin sirloin prosciutto pig. Spare ribs biltong jerky cow, pancetta bacon jowl brisket capicola pork belly strip steak ball tip tri-tip. Short loin burgdoggen leberkas, beef shank frankfurter porchetta prosciutto biltong. Doner shank burgdoggen bresaola strip steak salami meatloaf cow venison ground round hamburger tri-tip ribeye swine. Spare ribs sirloin tongue picanha filet mignon ball tip ham landjaeger salami leberkas turducken. Cow pastrami swine ground round boudin pork belly, ham meatball. Brisket shank doner pig.
+                    </p>
+                    <p id="contentText">
+                        Picanha cupim pig leberkas ball tip hamburger. Cow kevin pig ground round. Ball tip short loin burgdoggen tongue, chuck beef ribs tail bacon short ribs venison alcatra porchetta. Rump biltong pastrami prosciutto bacon. Pig hamburger andouille capicola, pork meatball swine burgdoggen t-bone pancetta short loin ground round.
+                    </p>
+                </div> 
             </div>
             
             <!--Connect With Me Block-->
-            <div class="col-12-sm col-md-3 col-md-offset-1" id="connectBox">
-                    <h2 id="connectHeader">Connect With Me</h2>
+            <div class="col-12-sm col-md-3 col-md-offset-1 styledBox" id="connectBox">
+                    <h2 class="headerText">Connect With Me</h2>
                     <div style="width: 190px; display: flex; justify-content: space-between">
-                        <img src="assets/images/github.png" class="connectThumbnail">
-                        <img src="assets/images/linkedin.png" class="connectThumbnail">
-                        <img src="assets/images/stackoverflow.png" class="connectThumbnail">
+                        <a href="https://github.com/schleicherbiker" target="_blank"> <img src="assets/images/github.png" class="connectThumbnail"></a>
+                        <a href="https://www.linkedin.com/in/alecschleicher/" target="_blank"> <img src="assets/images/linkedin.png" class="connectThumbnail"></a>
+                        <a href="https://stackoverflow.com/users/7982293/alec-schleicher" target="_blank"> <img src="assets/images/stackoverflow.png" class="connectThumbnail"></a>
                     </div>
             </div>
         </div>
     </div>
+
+    <footer class="navbar navbar-default navbar-static-bottom" style="margin: 0; border-radius: 0; border: 0; border-top: 2px #bbb solid;">
+        <h4 style="display: flex; align-items: center; justify-content: center; color: #555; padding-top: 5px;">© Copyright Alec Schleicher</h4>
+    </footer>
 
 </body>
 
